@@ -36,7 +36,7 @@ public class SampleAndroidAppTest {
             ltOptions.put("isRealMobile", true);
             ltOptions.put("project", "android");
             ltOptions.put("visual", true);
-            ltOptions.put("tunnel", false);
+            ltOptions.put("tunnel", true);
             capabilities.setCapability("lt:options", ltOptions);
             capabilities.setCapability("tags", new String[] {"regression", "android"});
 
